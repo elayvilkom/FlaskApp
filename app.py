@@ -6,7 +6,7 @@ app = Flask(__name__)
 # יצירת route לדף הבית
 @app.route('/')
 def home():
-    return ף"Flask!"
+    return ף"Flasks!"
 
 # הפעלת האפליקציה
 if __name__ == '__main__':
